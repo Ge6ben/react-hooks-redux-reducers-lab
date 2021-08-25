@@ -3,7 +3,7 @@ export function managePresents(state, action) {
     case 'presents/increase':
       return { numberOfPresents: state.numberOfPresents + 1 };
 
-    default:
-      return state;
+   
+    default:return state;
   }
 }
